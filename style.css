@@ -49,73 +49,79 @@ a {
   transform: scale(0.95);
 }
 
-.ranking-section {
-  background-color: #2b2b2b;
-  padding: 40px 0;
+.top-section {
+  margin-top: 100px;
 }
 
-.ranking-section .container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
+.top-section h1 {
+  color: white;
+  font-size: 51px;
+  margin-left: 115px;
 }
 
-.ranking-section .ranking-table {
-  width: 100%;
-  border-spacing: 0;
-  border-collapse: collapse;
-  color: #fff;
+.top-section p {
+  color: gray;
+  font-size: 22px;
+  margin-left: 115px;
 }
 
-.ranking-section .ranking-table thead tr {
-  background-color: #333;
-  text-align: left;
+.weel {
+  display: flex;
+  gap: 10px;
+  margin-left: 100px;
+  margin-top: 100px;
 }
 
-.ranking-section .ranking-table thead tr th {
-  padding: 10px 20px;
-  font-weight: normal;
-  font-size: 14px;
-  color: #b3b3b3;
+.today {
+  width: 262px;
+  height: 60px;
+  border-bottom: 2px solid white;
 }
 
-.ranking-section .ranking-table tbody tr {
-  background-color: #3a3a3a;
-  border-bottom: 1px solid #2c2c2c;
+.today p {
+  color: white;
+  margin-top: 15px;
+  margin-left: 100px;
 }
 
-.ranking-section .ranking-table tbody tr:hover {
-  background-color: #444;
+.today1 {
+  width: 262px;
+  height: 60px;
 }
 
-.ranking-section .ranking-table tbody tr td {
+.today1 p {
+  margin-top: 15px;
+}
+
+.center-section {
+  margin-top: 80px;
+  padding-left: 85px;
+}
+
+.ruben {
+  max-width: 1050px;
+  height: 84px;
+  display: flex;
   padding: 20px;
-  font-size: 14px;
-  color: #b3b3b3;
-  text-align: left;
+  gap: 70px;
+  align-items: center;
+  margin-top: 20px;
+  border-radius: 20px;
+  border: 2px solid gray;
 }
 
-.ranking-section .ranking-table tbody tr td.change {
-  color: #1dd1a1;
+.cosmo {
+  width: 520px;
+  height: 22px;
 }
 
-.ranking-section .ranking-table tbody tr td .artist-info {
+.jaydon {
   display: flex;
   align-items: center;
+  gap: 20px;
 }
 
-.ranking-section .ranking-table tbody tr td .artist-info img {
-  border-radius: 50%;
-  height: 40px;
-  width: 40px;
-  margin-right: 10px;
-}
-
-.ranking-section .ranking-table tbody tr td .artist-info span {
-  color: #fff;
-  font-weight: bold;
-}
-
-.ranking-section .ranking-table tbody tr:last-child {
-  border-bottom: none;
+.jaydon p {
+  color: white;
+  font-size: 22px;
 }/*# sourceMappingURL=style.css.map */
