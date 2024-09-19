@@ -63,6 +63,7 @@ a {
   color: gray;
   font-size: 22px;
   margin-left: 115px;
+  margin-top: 20px;
 }
 
 .weel {
@@ -124,4 +125,103 @@ a {
 .jaydon p {
   color: white;
   font-size: 22px;
+}
+
+.footer-section {
+  margin-top: 120px;
+  margin-bottom: 50px;
+  display: flex;
+  gap: 140px;
+  padding-left: 80px;
+}
+
+.relory :nth-child(2) {
+  margin-top: 20px;
+  max-width: 230px;
+  font-size: 16px;
+  color: #CCCCCC;
+}
+
+.relory :nth-child(3) {
+  margin-top: 20px;
+  color: #CCCCCC;
+  font-size: 16px;
+}
+
+.relory :nth-child(4) {
+  margin-top: 10px;
+}
+
+.relory2 :nth-child(1) {
+  color: white;
+  font-size: 22px;
+}
+
+.relory2 p {
+  margin-top: 15px;
+  color: #CCCCCC;
+  font-size: 16px;
+}
+
+.relory3 h3 {
+  color: white;
+  font-size: 22px;
+}
+
+.relory3 p {
+  margin-top: 20px;
+  color: #CCCCCC;
+  max-width: 300px;
+}
+
+.footer-input {
+  width: 420px;
+  height: 60px;
+  background-color: #fff;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.footer-input button {
+  width: 179px;
+  height: 60px;
+  padding: 0px 50px 0px 50px;
+  gap: 12px;
+  border-radius: 20px;
+  color: white;
+  font-size: 16px;
+  border: none;
+  background-color: #A259FF;
+  cursor: pointer;
+  transition: background-color 0.5s, transform 0.4s;
+}
+
+.footer-input button[type=submit]:hover {
+  background-color: white;
+  color: #A259FF;
+  border: 2px solid #A259FF;
+}
+
+.footer-input button[type=submit]:active {
+  transform: scale(0.95);
+}
+
+.footer-input input {
+  background-color: #fff;
+  border: none;
+  margin-left: 20px;
+  font-size: 16px;
+  outline: none;
+}
+
+.ended {
+  color: gray;
+  font-size: 14px;
+  margin-left: 75px;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }/*# sourceMappingURL=style.css.map */
